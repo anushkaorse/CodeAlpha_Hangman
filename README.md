@@ -1,6 +1,8 @@
 # CodeAlpha Python Programming Internship
 
-This repository contains my Python programming projects completed as part of the **CodeAlpha Python Programming Internship**.
+This repository contains Python programming projects completed as part of my **CodeAlpha Python Programming Internship**.
+
+---
 
 ## 📌 Projects
 
@@ -33,13 +35,13 @@ python hangman.py
 
 ### Task 2 – Stock Portfolio Tracker
 
-A Python-based console application that calculates the total investment value of a stock portfolio using predefined stock prices.
+A Python console application that calculates the total investment value of a stock portfolio using predefined sample stock prices.
 
 **Features:**
 
 * Displays available stocks and prices
 * Accepts stock symbols from the user
-* Accepts the quantity of shares
+* Accepts quantity of shares
 * Calculates individual investment value
 * Calculates total portfolio value
 * Validates stock symbols
@@ -58,7 +60,35 @@ A Python-based console application that calculates the total investment value of
 python stock_portfolio.py
 ```
 
-> Note: The stock prices used in this project are predefined sample prices and are not live market prices.
+> **Note:** The stock prices used in this project are predefined sample prices and are not live market prices.
+
+---
+
+### Task 3 – JPG File Organizer
+
+A Python automation program that automatically identifies JPG image files and moves them into a separate `Images` folder.
+
+**Features:**
+
+* Scans the selected folder
+* Detects `.jpg` files
+* Automatically creates an `Images` folder
+* Moves JPG files into the `Images` folder
+* Leaves other file types unchanged
+
+**Technologies Used:**
+
+* Python
+* `os` module
+* `shutil` module
+
+**Run the program:**
+
+```bash
+python file_organizer.py
+```
+
+> **Note:** The program was tested using a separate sample folder to avoid modifying personal files.
 
 ---
 
@@ -69,48 +99,60 @@ CodeAlpha_Hangman/
 │
 ├── hangman.py
 ├── stock_portfolio.py
+├── file_organizer.py
 └── README.md
 ```
+
+---
 
 ## 🛠️ Requirements
 
 * Python 3.x
-* Any Python-compatible IDE or code editor
+* VS Code or any Python-compatible code editor
 
 No external Python libraries are required.
 
+---
+
 ## ▶️ How to Run
 
-1. Install Python 3.x.
-2. Clone or download this repository.
-3. Open the project folder in a terminal or code editor.
-4. Run the required Python file.
-
-For Hangman:
+### Task 1 – Hangman
 
 ```bash
 python hangman.py
 ```
 
-For Stock Portfolio Tracker:
+### Task 2 – Stock Portfolio Tracker
 
 ```bash
 python stock_portfolio.py
 ```
 
+### Task 3 – JPG File Organizer
+
+```bash
+python file_organizer.py
+```
+
+---
+
 ## 🎓 Learning Outcomes
 
 Through these projects, I practiced:
 
-* Python fundamentals
+* Python programming fundamentals
 * Variables and data types
 * Lists and dictionaries
 * Loops
 * Conditional statements
-* Functions and modules
 * User input and validation
-* Basic problem-solving and programming logic
-* Git and GitHub version control
+* File and folder handling
+* Python modules
+* Basic automation
+* Problem-solving and programming logic
+* Git and GitHub
+
+---
 
 ## 👩‍💻 Author
 
