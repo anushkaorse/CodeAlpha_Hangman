@@ -1,6 +1,6 @@
 # CodeAlpha Python Programming Internship
 
-This repository contains Python programming projects completed as part of my **CodeAlpha Python Programming Internship**.
+This repository contains my Python programming projects completed as part of my **CodeAlpha Python Programming Internship**.
 
 ---
 
@@ -70,7 +70,7 @@ A Python automation program that automatically identifies JPG image files and mo
 
 **Features:**
 
-* Scans the selected folder
+* Scans a selected folder
 * Detects `.jpg` files
 * Automatically creates an `Images` folder
 * Moves JPG files into the `Images` folder
@@ -92,6 +92,45 @@ python file_organizer.py
 
 ---
 
+### Task 4 – Python Chatbot
+
+A simple rule-based chatbot developed using Python. It accepts user messages and provides predefined responses to common questions and commands.
+
+**Features:**
+
+* Greeting responses
+* Responds to common questions
+* Help command
+* Handles unknown messages
+* Continuous conversation using a loop
+* Exit command
+
+**Technologies Used:**
+
+* Python
+* Conditional statements
+* `while` loop
+* User input
+* String handling
+
+**Run the program:**
+
+```bash
+python chatbot.py
+```
+
+**Example commands:**
+
+```text
+hello
+how are you
+what is your name
+help
+bye
+```
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -100,6 +139,7 @@ CodeAlpha_Hangman/
 ├── hangman.py
 ├── stock_portfolio.py
 ├── file_organizer.py
+├── chatbot.py
 └── README.md
 ```
 
@@ -116,7 +156,7 @@ No external Python libraries are required.
 
 ## ▶️ How to Run
 
-### Task 1 – Hangman
+### Task 1 – Hangman Game
 
 ```bash
 python hangman.py
@@ -134,6 +174,12 @@ python stock_portfolio.py
 python file_organizer.py
 ```
 
+### Task 4 – Python Chatbot
+
+```bash
+python chatbot.py
+```
+
 ---
 
 ## 🎓 Learning Outcomes
@@ -146,6 +192,7 @@ Through these projects, I practiced:
 * Loops
 * Conditional statements
 * User input and validation
+* String handling
 * File and folder handling
 * Python modules
 * Basic automation
