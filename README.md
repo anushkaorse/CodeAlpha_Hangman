@@ -1,62 +1,119 @@
-# CodeAlpha Hangman Game
+# CodeAlpha Python Programming Internship
 
-## Project Overview
+This repository contains my Python programming projects completed as part of the **CodeAlpha Python Programming Internship**.
 
-This project is a simple text-based Hangman game developed using Python as part of the CodeAlpha Python Programming Internship.
+## 📌 Projects
 
-The player has to guess a randomly selected word one letter at a time. The game allows a maximum of six incorrect guesses.
+### Task 1 – Hangman Game
 
-## Features
+A simple console-based Hangman game developed using Python.
 
-* Five predefined words
+**Features:**
+
 * Random word selection
-* Letter-by-letter guessing
-* Maximum of six incorrect guesses
+* Letter guessing
+* Hidden letters
+* Incorrect guess tracking
+* Repeated guess detection
 * Input validation
-* Detection of repeated guesses
-* Win and game-over conditions
-* Console-based interface
+* Win and Game Over conditions
 
-## Technologies Used
+**Technologies Used:**
 
 * Python
-* Random module
+* `random` module
 
-## Python Concepts Used
-
-* Lists
-* Strings
-* While loop
-* For loop
-* If-else conditions
-* User input
-* Random selection
-
-## How to Run
-
-1. Install Python.
-2. Download or clone this repository.
-3. Open the project folder in VS Code.
-4. Open the terminal.
-5. Run:
+**Run the program:**
 
 ```bash
 python hangman.py
 ```
 
-## Project Structure
+---
+
+### Task 2 – Stock Portfolio Tracker
+
+A Python-based console application that calculates the total investment value of a stock portfolio using predefined stock prices.
+
+**Features:**
+
+* Displays available stocks and prices
+* Accepts stock symbols from the user
+* Accepts the quantity of shares
+* Calculates individual investment value
+* Calculates total portfolio value
+* Validates stock symbols
+
+**Technologies Used:**
+
+* Python
+* Dictionaries
+* Loops
+* Conditional statements
+* User input
+
+**Run the program:**
+
+```bash
+python stock_portfolio.py
+```
+
+> Note: The stock prices used in this project are predefined sample prices and are not live market prices.
+
+---
+
+## 📂 Repository Structure
 
 ```text
-CodeAlpha_HangmanGame/
+CodeAlpha_Hangman/
 │
 ├── hangman.py
+├── stock_portfolio.py
 └── README.md
 ```
 
-## Learning Outcome
+## 🛠️ Requirements
 
-Through this project, I practiced Python fundamentals including loops, conditional statements, strings, lists, user input and the random module.
+* Python 3.x
+* Any Python-compatible IDE or code editor
 
-## Internship
+No external Python libraries are required.
 
-This project was completed as part of the CodeAlpha Python Programming Internship.
+## ▶️ How to Run
+
+1. Install Python 3.x.
+2. Clone or download this repository.
+3. Open the project folder in a terminal or code editor.
+4. Run the required Python file.
+
+For Hangman:
+
+```bash
+python hangman.py
+```
+
+For Stock Portfolio Tracker:
+
+```bash
+python stock_portfolio.py
+```
+
+## 🎓 Learning Outcomes
+
+Through these projects, I practiced:
+
+* Python fundamentals
+* Variables and data types
+* Lists and dictionaries
+* Loops
+* Conditional statements
+* Functions and modules
+* User input and validation
+* Basic problem-solving and programming logic
+* Git and GitHub version control
+
+## 👩‍💻 Author
+
+**Anushka Orse**
+
+Python Programming Intern – CodeAlpha
